@@ -1,4 +1,4 @@
-# simplebloonfilter
+# simplebloomfilter
 
 This is a simple implementation of a Bloom Filter I made with Python 3
 
