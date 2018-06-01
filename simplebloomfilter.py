@@ -19,8 +19,7 @@ class SimpleBloomFilter:
 		for i in range(self.hash_iter):
 			bit = mmh3.hash(item,i) % self.array_size
 			if self.bit_array[bit] == 0:
-				return "The item %s is not in the list" % (item)
+				return 'The item %s is not on the list' % (item)
 			else:
-				return "The item %s is PROBABLY in the list" % (item)
-
+				return 'The item %s is PROBABLY on the list' % (item)
 
